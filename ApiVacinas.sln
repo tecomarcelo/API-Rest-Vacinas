@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVacinas.Services", "ApiProdutos.Services\ApiVacinas.Services.csproj", "{690FB021-B800-428C-9045-9B8B2809A956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services Layer", "1-Services Layer", "{A487E8F9-B39F-4165-B4B3-964CAC150055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-InfraStructure Layer", "2-InfraStructure Layer", "{259C79EE-9A30-47C2-9669-4C1B608AE7CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVacinas.Infra.Data", "ApiVacinas.Infra.Data\ApiVacinas.Infra.Data.csproj", "{875AD0D9-F533-49C2-9DD8-274070299AF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Menssages Layer", "3-Menssages Layer", "{BBF817DC-B7AA-45CA-A439-17D38DFE0E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiVacinas.Messages", "ApiVacinas.Messages\ApiVacinas.Messages.csproj", "{7B9B7551-0870-4921-8682-2819779CABF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{690FB021-B800-428C-9045-9B8B2809A956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690FB021-B800-428C-9045-9B8B2809A956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690FB021-B800-428C-9045-9B8B2809A956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690FB021-B800-428C-9045-9B8B2809A956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875AD0D9-F533-49C2-9DD8-274070299AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875AD0D9-F533-49C2-9DD8-274070299AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875AD0D9-F533-49C2-9DD8-274070299AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875AD0D9-F533-49C2-9DD8-274070299AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9B7551-0870-4921-8682-2819779CABF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9B7551-0870-4921-8682-2819779CABF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9B7551-0870-4921-8682-2819779CABF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9B7551-0870-4921-8682-2819779CABF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{690FB021-B800-428C-9045-9B8B2809A956} = {A487E8F9-B39F-4165-B4B3-964CAC150055}
+		{875AD0D9-F533-49C2-9DD8-274070299AF3} = {259C79EE-9A30-47C2-9669-4C1B608AE7CD}
+		{7B9B7551-0870-4921-8682-2819779CABF3} = {BBF817DC-B7AA-45CA-A439-17D38DFE0E9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA955DA-0760-4C9D-9BDF-5FEBAE55C300}
+	EndGlobalSection
+EndGlobal
